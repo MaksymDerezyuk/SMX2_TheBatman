@@ -1,14 +1,73 @@
 .encabezado-texto {
     position: absolute;
-    top: 60%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 160px;
+    font-size: 35px;
     width: 65%;
     text-align: left;
+    font-family: 'Quicksand', sans-serif;
 
 }
 #imagen-encabezado {
     width: 100%; height: 100%;  
 }
+
+main {
+    font-size: 29px;
+    max-width: 65%;
+    text-align: left;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    font-size: 55px;
+    text-align: left;
+    margin: 0 auto; 
+}
+
+.thebatmanrojo {
+    color: red;
+}
+.escena2 {
+    font-size: 35px;
+}
+#imagen-1 {
+    width: 100%;
+}
+iframe {
+    width: 100%; height: 600px;
+}
+#imagen-2 {
+    width: 100%;
+}
+#imagen-3 {
+    width: 100%;
+}
+.escena3 {
+    font-family: 'Padyakke Expanded One', cursive;
+    font-size: 40px;
+}
+@media (max-width: 768px) {
+    main {
+        font-size: 14px;
+    }
+    header {
+        font-size: 27px;
+      }
+    .encabezado-texto {
+        font-size: 17px;
+        top: 40%;
+      }
+    .escena2 {
+        font-size: 17px;
+      }
+    .escena3 {
+        font-size: 20px;
+      }
+    iframe {
+        height: 300px;
+      }
+  }
