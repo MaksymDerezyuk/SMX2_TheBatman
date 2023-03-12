@@ -1,4 +1,5 @@
 .encabezado-texto {
+    /*Esto establece la posicion del texto de manera que este bien centrada en la imagen, tambien añade la fuente*/
     position: absolute;
     top: 75%;
     left: 50%;
@@ -11,10 +12,12 @@
 
 }
 #imagen-encabezado {
+    /*Esto hace que la imagen ocupe todo el ancho de la pagina*/
     width: 100%; height: 100%;  
 }
 
 main {
+    /*Aqui establezco un tamaño de fuente, la fuente en si y anchura de todo el contenido*/
     font-size: 29px;
     max-width: 65%;
     text-align: left;
@@ -22,16 +25,19 @@ main {
     font-family: 'Quicksand', sans-serif;
 }
 
-header {
+header { 
+    /*Aqui estilizo el primer titulo*/
     font-size: 55px;
     text-align: left;
     margin: 0 auto; 
 }
 
 .thebatmanrojo {
+    /*Aqui estilizo unas palabras concretas para que sean rojas*/
     color: red;
 }
 .escena2 {
+    /*Establezco un tamaño de fuente*/
     font-size: 35px;
 }
 #imagen-1 {
@@ -47,9 +53,36 @@ iframe {
     width: 100%;
 }
 .escena3 {
+    /*Cambio de fuente y tamaño de fuente*/
     font-family: 'Padyakke Expanded One', cursive;
     font-size: 40px;
 }
+table {
+    /*Establezco un ancho y borde de la tabla*/
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    align-items: center;
+}
+th {
+    /*Añado un fondo de color y alineo el contenido de la tabla*/
+    border: 4px solid black;
+    text-align: center;
+    background-color: grey;
+    padding: 8px;
+}
+td {
+    border: 4px solid black;
+    text-align: center;
+    background-color: lightgray;
+}
+#actor {
+    /*Estilizo las fotos de los actores para que ocupen todo el ancho de la casilla*/
+    height: 100%;
+    width: 100%
+}
+
+/*Creo un media querie para que cuando el viewport sea menor de 768xp reduzca el tamaño de todas las fuentes, videos e imagenes*/
 @media (max-width: 768px) {
     main {
         font-size: 14px;
@@ -72,6 +105,7 @@ iframe {
       }
   }
   a {
+    /*Cambio el color del enlace a rojo y le quito el subrayado*/
     color: red;
     text-decoration: none;
   }
